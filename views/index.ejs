@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script src="https://kit.fontawesome.com/79ee32e1f6.js" crossorigin="anonymous"></script> 
+    <!-- Import Icons (used for submit button) -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyHealth</title>
+</head>
+<body>
+    <form action="/compose" method="POST" >
+        <input type="text" name="user" placeholder="Name">
+        <br>
+        <input type="text" name="id" placeholder="School ID">
+        <br>
+        <input type="text" name="disease" placeholder="Sickness">
+        <br>
+        <input list="region" placeholder="Where?" name="region">
+            <datalist id="region">
+                <option value="Region 1">
+                <option value="Region 2">
+                <option value="Region 3">
+                <option value="Region 4">
+                <option value="Region 5">
+            </datalist>
+        <br>
+        <input style="font-family: FontAwesome" value="+" type="submit">
+            
+    </form>
+</body>
+</html>
